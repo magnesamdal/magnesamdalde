@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+	<script>
+	        var w11= 200;
+	</script>
+	
+	<head>
+	<!--for @meta to work*/-->
+	<metaxname="viewport" content="width=device-width, initial-scale=1.0">
+	<metacname="viewport" content="width=device-width">
+		<title>Neue Webseite</title>
+		<meta http-equiv="content-language" content="de">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="MSThemeCompatible" content="Yes">
+
+		<meta name="MSSmartTagsPreventParsing" content="TRUE">
+		<meta http-equiv="imagetoolbar" content="no">
+		
+		<style type="text/css">
+		@viewport {
+  width: device-width;
+  }
+		
+/*Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px) { 
+a { font-size: 50px; color: #ff0000; }
+}
+
+/•Small devices (landscape phones, less than 768px)*/
+@media only screen and (max-width: 767.98px)  { a { font-size: 50px; color: #00ff00; }}
+
+/*Medium devices (tablets, less than 992px)*/
+@media  only screen and (max-width: 991.98px)  { a { font-size: 50px; color: #0000ff; }}
+
+/*Large devices (desktops, less than 1200px)*/
+@media only screen and (max-width: 1199.98px)  { a { font-size: 50px; color: #ff0000; }}
+
+@media only screen and (max-width: 900px ) {
+/* your CSS here */
+  bodyx{
+    background-color: yellow;
+  }
+    a { 
+ font-size: 30px; color: #00ff00;
+}
+}
+@media only screen and (max-width: 414px) {
+  bodyx {
+    background-color: lightblue;
+  }
+  a { 
+ font-size: 20px; color: #000044; 
+}
+}
+		  xa { font-size: 50px; color: #000099; }
+			#imgl { width:430px;height:286px; cursor: pointer;}
+			#imgb { width:480;height:320px; cursor: pointer;}
+                     #imgs { width:296px;height:444px; cursor: pointer;}
+			img { width:296px;height:444px; cursor: pointer;
+			  /*grid-column: 1 / 2;
+  grid-row: 1 / 3;*/}
+			footer h4 {
+                            display: inline;
+                            margin-right: 1em;
+                     }
+                     .gallery {
+                       display: grid;
+                       grid-gap: 10px 200px;
+                       grid-template-columns: 33 33;
+  gap: 50px;-->
+}
+
+.gallery > figcaption {
+  grid-column: 10;
+  text-align: center;
+}
+.niagx {
+    display: grid;
+    border: 1px dotted gray;    
+    xfloat: left;
+    }
+.niagx figcaption {
+    grid-area: caption;
+    border: 3px dotted blue;
+      grid-column: 1 / 2;
+  grid-row: 1 / 3;
+    }
+.herox {
+     grid-area: image;
+    xdisplay: block;
+    height: 85vh;
+    }
+.threeColumnGrid {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;;
+    grid-row-gap: 0;
+    background-color: #ccefff;
+    padding: 1px;
+    grid-gap: 0;
+  }
+figure.threeColumnGridItem {
+    display: block;
+    padding: 0px;
+    text-align: center; /*left*/
+    background-color: #EEE;
+    margin-inline-start: 0;
+    margin-inline-end: 0;  
+  }
+figure.threeColumnGridItem img {
+    display: block; 
+    width: 100%;
+    /*added below 250522*/
+    margin-left: auto;
+    margin-right: auto;
+    transformx translate(-50%, -50%);
+    transform translate: (-0%, 100%);
+    topx: 0;
+    leftx: 0;
+  }
+  .imgt {
+    transform: translate(-0%, 120px);
+    color: blue;
+  }
+  }
+  .figcapx {
+    transform:translate(-0%, 30%);
+    color: gray;
+  }
+ /*figure.threeColumnGridItem figurecaption {*/
+  figure.threeColumnGridItem figcaption {
+    display:block; 
+    width: 100%; 
+    font-size: 2rem;
+    margin: 6px;;
+    bottom: 1px;
+    align-items: bottom;
+    align-content: bottom;
+    text-align: center;
+    justify-content: bottom;
+    color: red;
+    caption-side: bottom;
+    top: 100px;
+      /*transform: translate(0%, 250%);*/
+  }
+  .figcapv {
+    display:block; 
+    width: 100%; 
+    font-size: 2rem;
+    margin: 10px;;
+    bottom: 1px;
+    align-items: bottom;
+    align-content: bottom;
+    text-align: center;
+    justify-content: bottom;
+    color: blue;
+    caption-side: bottom;
+    top: 100px;
+      transform: translate(-0%, 100px);
+  }
+		</style>
+	</head>
+	<body>
+	<script>
+        /* Storing user's device details in a variable*/
+        let details = navigator.userAgent;
+  
+        /* Creating a regular expression 
+        containing some mobile devices keywords 
+        to search it in details string*/
+        let regexp = /android|iphone|kindle|ipad/i;
+  
+        /* Using test() method to search regexp in details
+        it returns boolean value*/
+        let isMobileDevice = regexp.test(details);
+    </script>
+	<script>
+	        var wl = 2;
+	</script>
+	<script>
+		</script>
+	<footer>
+	<h4><a href="Heilsberg.html">Heilsberg</a></h4>
+<h4><a href="https://sites.google.com/view/magruss2/"><b>Waterloo...</b></a></h4>
+<h4><a href="https://sites.google.com/site/magne940/home/200-jahre-befreiungskriege/leipzig-16--19-oktober"><b>Leipzig...</b></a></h4>
+<h4><a href="Glatz.html">Glatz</a></h4>
+<h4><a href="Mal.html"><b>Schrei...</b></a></h4>
+<h4><a href="http://batonyx.de/">batonyx.de</a></h4>
+		</footer>
+	       <font size="200">
+	       <div class="threeColumnGrid">
+	       <figure class="threeColumnGridItem">
+	       <figcaption>Bataille de la Moskova</figcaption>
+	        <img class="hero" src="IMG_2066-kav.JPG" id="imgb" onclick="window.open(this.src)">
+	         <figcaption>7. September 1812</figcaption>
+	         </figure>
+	         <figure class="threeColumnGridItem">
+	         <figcaption>Moskova</figcaption>
+	        <img class="hero" src="IMG_2071-art2.JPG" id="imgb" onclick="window.open(this.src)">
+	          <figcaption>7. September 1812</figcaption>
+	           </figure>
+	          <figure class="threeColumnGridItem">
+	          <figcaption>Moskova</figcaption>
+	        <img  class="hero" src="IMG_2070-art1.JPG" id="imgb" onclick="window.open(this.src)">
+	         <figcaption>7. September 1812</figcaption>
+	         </figure>
+	        <figure class="threeColumnGridItem">
+	         <figcaption>Moskova</figcaption>
+	        <img  class="hero" src="IMG_2072-art3.JPG" id="imgb"
+onclick="window.open(this.src)">
+  <figcaption>7. September 1812</figcaption>
+     </figure>
+          <figure class="threeColumnGridItem">
+          <figcaption>Bataille de la Moskova</figcaption>
+	        <img class="hero" src="IMG_2068-infk1.JPG" id="imgb" onclick="window.open(this.src)">
+	        <figcaption>7. September 1812</figcaption>
+	          </figure>
+	        
+	        </figure>
+	        <figure class="threeColumnGridItem">
+	         <figcaption>Bataille de la Moskova</figcaption>
+	        <img src="IMG_2069-infk2.JPG"  id="imgb" onclick="window.open(this.src)">
+	         <figcaption>7. September 1812</figcaption>
+	        </figure>
+	        <figure class="threeColumnGridItem">
+	         <figcaption>Bataille de la Moskova</figcaption>
+	        <img src="IMG_2075-rast3.JPG" id="imgb" onclick="window.open(this.src)">
+	         <figcaption>7. September 1812</figcaption>
+	        </figure>
+	        <figure class="threeColumnGridItem">
+	         <figcaption>Bataille de la Moskova</figcaption>
+	         <img src="IMG_2073-rast1.JPG" id="imgb"
+onclick="window.open(this.src)">
+ <figcaption>7. September 1812</figcaption>
+</figure>
+	        <figure class="threeColumnGridItem">
+	         <figcaption class="figcap">Bataille de la Moskova</figcaption>
+               <img id="imgs" src="IMG_2078-magneb.JPG" onclick="window.open(this.src)">
+                <figcaption>7. September 1812</figcaption>
+               </figure>
+	        <figure class="threeColumnGridItem">
+	         <figcaption style="color:blue;transformx:translate(0px,120px)"  id="figcap">300000 Zuschauer</figcaption>
+                <img stylev="transform:translate(0px,120px)" src="IMG_2067-gaeste.JPG" class="imgt" id="imgb"
+onclick="window.open(this.src)">
+ <figcaption style="transform:translate(0px,120px); color:blue" class="figcapx">7. September 2002</figcaption>
+ </figure>
+</div>
+		<div class="dashline"><!-- --></div>
+		<footer>
+<h4><a href="http://batonyx.de/">batonyx.de</a></h4>
+<h4><a href="Hinweise.html">Hinweise</a></h4>
+		</footer>
+		<script>
+		</script>
+		<script>
+    </script>
+    
+	<script>
+		if (isMobileDevice) {
+            document.write("You are using a Mobile Device");
+        } else {
+            document.write("You are using Desktop");
+            
+        }
+        document.write(" - Details:   ");
+        document.write(details);
+		</script>
+		</body>
+</html>
+
