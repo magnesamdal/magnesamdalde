@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+	<head>
+	<script>
+		document.write("bullehhh");
+		</script>
+		<title>Neue Webseite</title>
+		<meta http-equiv="content-language" content="de">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="MSThemeCompatible" content="Yes">
+
+		<meta name="MSSmartTagsPreventParsing" content="TRUE">
+		<meta http-equiv="imagetoolbar" content="no">
+		<style type="text/css">
+			* { font-family: Sans-Serif, Arial; }
+			body { margin: 32px; font-size: 24pt; color: #404060; }
+			h1 { font-size: 24px; font-color: #205070; margin: 0; padding: 0; }
+			h2 { font-size: 18px; color: #202040; font-weight: normal; margin: 0px; margin-bottom: 8px; }
+			.dashline { padding-bottom: 8px; margin-bottom: 8px; border-bottom: 2px dotted #a0a0a0; }
+			ul { list-style: none; margin: 0px; padding: 0px; margin-top: 12px; }
+			li { border: 1px solid #e0e0e0; background-color: #f8faff; margin-bottom: 12px; margin-left: 12px; margin-right: 12px; padding: 8px; }
+		</style>
+	</head>
+	<body>
+		<h1>Diese Seite befindet sich noch im Aufbau</h1>
+		<script>
+		document.write("bulle");
+		</script>
+		<script>
+		/* Storing user's device details in a variable*/
+        let details = navigator.userAgent;
+  
+        /* Creating a regular expression 
+        containing some mobile devices keywords 
+        to search it in details string*/
+        let regexp = /android|iphone|kindle|ipad/i;
+  
+        /* Using test() method to search regexp in details
+        it returns boolean value*/
+        let isMobileDevice = regexp.test(details);
+        
+		if (isMobileDevice) {
+            document.write("You are using a Mobile Device");
+        } else {
+            document.write("You are using Desktop");
+            
+        }
+        document.write(" - Details:   ");
+        document.write(details);
+		</script>
+		<!--<img src="foto.pdf">
+		<img src="foto2.pdf">
+		<img src="Fotoh3.pdf">
+		<img src="Fotorgd1.pdf">
+		<img src="Fotothf1.pdf">
+		<img src="Fotorgd2.pdf">
+		<img src="Samdal.pdf">
+		<img src="Gboldtimer.pdf">-->
+		<!--img src="2015-09-12 18 52 18 - claudi - 71b393c2a8734840fbf0ce9f499229d4.jpg"-->
+		<div class="dashline"><!-- --></div>
+
+		<h2>Hinweis f&uuml;r den WebMaster der Pr&auml;senz</h2>
+		Sofern Sie diese WebSeite angezeigt bekommen, obwohl Sie bereits Inhalte bzw. eine eigene Startseite (index-Seite) in Ihr Stammverzeichnis (public_html) geladen haben, pr&uuml;fen Sie bitte folgendes:<BR>
+		<ul>
+			<LI>
+				<b>Stellen Sie sicher, dass Ihre Index-Datei wie folgt benannt ist (Gro&szlig;-/Kleinschreibung ist relevant!):</b><br>
+
+				index.html index.htm index.php3 index.php index.php4 index.cgi index.pl index.shtml index.wml.<BR>
+			</li>
+			<LI>
+				<b>Die Seite, die Ihnen im Moment angezeigt wird hei&szlig;t "index.html" und befindet sich aktuell in Ihrem Stammverzeichnis (public_html).</b><br>
+				Sofern Ihre eigene Startseite z.B. index.cgi oder index.php hei&szlig;t, wird Sie Ihnen aktuell NICHT angezeigt, weil gleichnamige Index-Seiten in der unter 1. aufgef&uuml;hrten Priorit&auml;tsreihenfolge vom Server dargestellt werden. Existiert also eine index.html so hat diese in der Darstellung Vorrang, vor einer index.shtml usw.
+			</li>
+
+		</ul>
+		<div class="dashline"><!-- --></div>
+		<h2>L&ouml;sung:</h2>
+		L&ouml;schen Sie die h&ouml;her priorisierte index.html (z.B. per FTP), damit Ihre eigene Startseite korrekt angezeigt wird.
+		<div class="dashline"><!-- --></div>
+	</body>
+</html>
+
